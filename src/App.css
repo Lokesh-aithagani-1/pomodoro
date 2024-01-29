@@ -1,0 +1,116 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timer-display {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.timer-controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+input {
+  font-size: 1em;
+  padding: 8px;
+  width: 60px;
+  text-align: center;
+}
+.customize-page {
+  text-align: center;
+}
+
+.customize-page h2 {
+  color: #333;
+}
+
+.customize-page label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.customize-page input {
+  font-size: 1em;
+  padding: 8px;
+  width: 60px;
+  text-align: center;
+}
+
+.customize-page button {
+  font-size: 1em;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+/* src/App.css */
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.timer-display {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.timer-controls {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+button.start {
+  background-color: #3498db; 
+}
+
+button.customize {
+  background-color: #a52a2a; 
+}
+button.cancel {
+  background-color: #3498db; 
+}
+
